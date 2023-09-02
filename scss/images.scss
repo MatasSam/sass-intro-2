@@ -15,6 +15,10 @@
       border-radius: 10px;
       position: relative;
 
+      &:hover {
+        box-shadow: 0 0 5px rgb(0, 0, 0, 0.395);
+      }
+
       &::before {
         content: "";
         position: absolute;
